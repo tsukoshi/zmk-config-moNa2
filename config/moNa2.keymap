@@ -74,7 +74,7 @@
 
         arrow_func {
             bindings = <
-&kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                         &trans  &trans          &trans          &trans           &trans
+&kp ESC         &kp F7  &kp F8  &kp F9  &kp F10                                         &trans  &trans          &trans          &trans           &trans
 &kp HOME        &kp F4  &kp F5  &kp F6  &kp F11                      &trans             &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
 &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LG(LEFT))    &kp LC(LG(RIGHT))  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans          &trans  &trans  &trans  &trans   &trans              &trans             &trans                                                   &trans
