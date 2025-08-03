@@ -32,8 +32,8 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G                            &kp DELETE     &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B      &lt 4 TAB             &kp TAB        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &kp SPACE  &lt 2 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B      &lt 4 TAB             &kp TAB        &kp N        &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &kp SPACE  &lt 1 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings =
@@ -43,10 +43,10 @@
 
         num_symbols {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH                            &kp POUND      &kp EXCLAMATION       &kp SEMICOLON          &kp BACKSLASH   &kp DOLLAR
-&trans                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK            &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS     &trans    &kp GRAVE    &kp SQT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
-&trans                      &kp KP_NUMBER_0  &kp PERIOD       &kp EQUAL        &kp PLUS      &trans    &kp CARET    &trans                                                                      &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH                              &kp POUND      &kp EXCLAMATION       &kp SEMICOLON          &kp BACKSLASH   &kp DOLLAR
+&trans                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK              &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS     &kp PLUS    &kp GRAVE    &kp SQT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
+&trans                      &kp KP_NUMBER_0  &kp PERIOD       &kp EQUAL        &trans        &trans      &kp CARET    &trans                                                                      &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
