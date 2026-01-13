@@ -13,6 +13,17 @@
 };
 
 / {
+  behaviors {
+    ht: hold_tap_settings {
+      compatible = "zmk,behavior-hold-tap";
+      tapping-term-ms = <280>;
+      flavor = "tap-preferred";
+      require-prior-idle-ms = <120>;
+    };
+  };
+};
+
+/ {
     combos { compatible = "zmk,combos"; };
 
     behaviors {
