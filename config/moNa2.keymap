@@ -8,14 +8,10 @@
 #define SCROLL 6
 
 &mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
-};
-
-&default_hold_tap {
-    tapping-term-ms = <280>;
-    flavor = "tap-preferred";
-    require-prior-idle-ms = <120>;
+  flavor = "tap-preferred";
+  tapping-term-ms = <280>;
+  require-prior-idle-ms = <120>;
+  quick-tap-ms = <0>;
 };
 
 / {
