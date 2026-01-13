@@ -12,15 +12,10 @@
     quick-tap-ms = <0>;
 };
 
-/ {
-  behaviors {
-    ht: hold_tap_settings {
-      compatible = "zmk,behavior-hold-tap";
-      tapping-term-ms = <280>;
-      flavor = "tap-preferred";
-      require-prior-idle-ms = <120>;
-    };
-  };
+&default_hold_tap {
+    tapping-term-ms = <280>;
+    flavor = "tap-preferred";
+    require-prior-idle-ms = <120>;
 };
 
 / {
