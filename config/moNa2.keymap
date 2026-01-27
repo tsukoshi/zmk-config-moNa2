@@ -31,7 +31,7 @@
         ipad: ipad {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&macro_wait_time 200>, <&to 5>;
+            bindings = <&bt BT_SEL 1>, <&macro_wait_time 200>, <&tog 5>;
 
             label = "IPAD";
         };
@@ -39,7 +39,7 @@
         windows: windows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&macro_wait_time 200>, <&to 0>;
+            bindings = <&bt BT_SEL 0>, <&macro_wait_time 200>, <&tog 0>;
 
             label = "WINDOWS";
         };
