@@ -76,7 +76,7 @@
 
         num_symbols {
             bindings = <
-&kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH                              &kp POUND      &kp EXCLAMATION       &kp SEMICOLON          &kp BACKSLASH   &kp DOLLAR
+&kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH                              &kp POUND      &kp EXCLAMATION       &kp SEMICOLON          &kp BACKSLASH   &kp APOS
 &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK              &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &kp PERCENT
 &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS     &kp PLUS    &kp GRAVE    &kp SQT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
 &trans     &kp KP_NUMBER_0  &kp PERIOD       &kp EQUAL        &trans        &trans      &kp CARET    &trans                                                                      &kp PIPE
